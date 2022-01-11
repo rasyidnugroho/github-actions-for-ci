@@ -33,7 +33,7 @@ jobs:
     
   
 name: test
-
+    needs: build
   on: [push]
 
   jobs:
